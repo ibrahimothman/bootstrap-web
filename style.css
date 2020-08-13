@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
@@ -178,3 +179,185 @@ hr.light-100 {
     }
 
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+.navbar {
+    padding: 0.8rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    text-shadow: 1px 1px 15px #222;
+    text-transform: uppercase;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.carousel-caption button {
+    margin: 0 10px;
+}
+
+.jumbotron {
+    padding: 2rem;
+}
+
+.padding{
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    line-height: 2rem;
+}
+
+.lead {
+    margin-top: 15px;
+}
+
+.fa-code {
+    color: red;
+}
+
+.fa-bold {
+    color: purple;
+}
+
+.fa-css3 {
+    color: blue;
+}
+
+.fa-code, .fa-bold, .fa-css3 {
+    font-size: 5rem;
+    margin: 1rem;
+}
+
+.fun {
+    margin-bottom: 2rem;
+}
+
+.gif {
+    width: 100%;
+}
+
+hr {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.social a {
+    font-size: 5rem;
+    padding: 4rem;
+}
+
+.fa-facebook-f {
+    color: #4267B2;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-instagram {
+    color: #833AB4;
+}
+
+.fa-envelope {
+    color: #B23121;
+}
+
+.fa-youtube {
+    color: #FF0000;
+}
+
+.fa-facebook-f:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-envelope:hover,
+.fa-youtube:hover {
+    color: #d5d5d5;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding: 2rem;
+
+}
+
+hr.light {
+    border: 1px solid #d5d5d5;
+    background-color: #d5d5d5;
+    width: 75%;
+    margin: 1rem auto;
+}
+
+hr.light-100 {
+    border: 1px solid #d5d5d5;
+    background-color: #d5d5d5;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+@media (max-width: 576px){
+
+    .carousel-caption h1 {
+        font-size: 250%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 100%;
+        font-weight: 400;
+        padding-bottom: .5rem;
+    }
+
+    .carousel-caption button {
+        font-size: 70%;
+        margin: 0;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .display-4 {
+        font-size: 200%;
+    }
+
+    .social a {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+
+}
+>>>>>>> 47eae06236c1f51cef90f252c955c43521e0d4e6
